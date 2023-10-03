@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Main from '../components/Main.astro';
+import { H1Index} from '../components/H1-index.tsx';
+import FrontPageImage from '../components/Front-page-image.astro';
+import { Text }  from '../components/Text.tsx';
+import { Card }  from '../components/card.tsx';
+import { Aboutimage } from '../components/Aboutimage.tsx';
+import { JobsCard } from '../components/jobs/jobs_card';
+import { ContactCard } from '../components/contact/contact_card';
+---
+
+<Layout title="Welcome to The Right Man">
+	<Main>
+		<FrontPageImage />
+		<H1Index text="The Right Man Website" client:load />
+		<Text text='"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae?"' client:load />
+		<Card/>
+		<JobsCard/>
+		<ContactCard />
+	</Main>
+</Layout>

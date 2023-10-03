@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Main from '../components/Main.astro';
+import H1 from '../components/H1.astro';
+import {AboutImagePage} from '../components/about/about_page_image.tsx';
+import {AboutText} from '../components/about/about_text.tsx';
+---
+
+<Layout title="About | The Right Man">
+	<Main>
+		<H1 text="About The Right Man"></H1>
+		<AboutImagePage/>
+		<AboutText />
+	</Main>
+</Layout>

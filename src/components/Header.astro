@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets"
+import Logo from "./public/logo.svg"
+---
+
+<header class="flex items-center justify-around py-5 px-5 max-sm:px-5 max-w-7xl w-full mx-auto ">
+    <a href="/" class="flex items-center gap-x-4">
+        <Image
+            src={Logo}
+            alt="logo"
+            width={60}
+            height={60}
+            class="rounded-2xl aspect-thumbnail object-contain"
+        />
+        <p class="text-3xl uppercase text-zinc-700">The Right Man</p>
+    </a>
+    <ul class="flex gap-x-8">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Jobs</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</header>
