@@ -19,3 +19,46 @@ export const data = [
         name: 'Contact us',
     }
  ] as const 
+
+ export const JobData = [
+    {
+        name: '',
+        description: '',
+        image: '',
+        href: '',
+        date: '',
+        location: ''
+    },
+    {
+        name: '',
+        description: '',
+        image: '',
+        href: '',
+        date: '',
+        location: ''
+    },
+    {
+        name: '',
+        description: '',
+        image: '',
+        href: '',
+        date: '',
+        location: ''
+    },
+    {
+        name: '',
+        description: '',
+        image: '',
+        href: '',
+        date: '',
+        location: ''
+    },
+    {
+        name: '',
+        description: '',
+        image: '',
+        href: '',
+        date: '',
+        location: ''
+    }
+ ] as const 
